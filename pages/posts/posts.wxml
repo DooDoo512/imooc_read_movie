@@ -7,6 +7,6 @@
   </swiper>
   <block wx:for="{{post_content}}" wx:key="*this" wx:for-item="item">
     <!--模板-->
-    <template is="postItem" data="{{item}}"/>
+    <template is="postItem" data="{{...item}}"/>
   </block>
 </view>
